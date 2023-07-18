@@ -1,7 +1,10 @@
 body {
-  background-image: url("https://img.freepik.com/free-photo/blue-concrete-wall-texture-background_53876-145494.jpg?size=626&ext=jpg&ga=GA1.1.1593658006.1677691242&semt=ais");
-  background-repeat: "no-repeat";
-  background-size: "contain";
+  /* background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-electronic-technology-website-texture-background-banner-image_156039.jpg"); */
+  background-image: url("https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  background-position:top center;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',

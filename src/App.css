@@ -120,17 +120,17 @@
   position: absolute;
   top: 20%;
   left: 5%;
-  border-radius: 1%;
-  border-top-right-radius: 50% 50%;
-  border-bottom-right-radius: 50% 50%;
+ 
+  
   width: 75%;
   height: 70vh;
-  background:rgb(170, 220, 235);
+   /* background:rgb(164, 166, 166);  */
+   color: white;
 }
 
 .pic{
   position: absolute;
-  border-radius: 30%;
+  border-radius: 15%;
   width: 35vw;
   float: right;
   top: 23%;
@@ -140,9 +140,9 @@
 
 .name{
   text-align: center;
-  padding-top: 5%;
+  padding-top: 3%;
   font-weight: bold;
-  font-family: 'Lobster', cursive;
+  font-family: 'Brush Script', cursive;
   font-size: 3.5vw;
 }
 
@@ -154,7 +154,7 @@
 .down{
   position: absolute;
   opacity: 0;
-  border-radius: 5%;
+  border-radius: 15%;
   top: 90vw;
   height: 50vw;
   width: 78vw;
@@ -240,7 +240,7 @@
   overflow: hidden;
 }
 .dynamicText li{
-  color: red;
+  color: rgb(26, 26, 25);
   list-style: none;
   position: relative;
   top: 0;
@@ -265,7 +265,7 @@
   top: 8%;
   left: 0;
   width: 100%;
-  border-left: 2px solid red ;
+  border-left: 2px solid rgb(178, 246, 67) ;
   animation: typing 2s steps(18) infinite;
 }
 

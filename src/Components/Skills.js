@@ -55,18 +55,18 @@ function Skills() {
             icon : reactjs,
             name : "Reactjs"
         },
-        {
-            icon : jQuery,
-            name : "jQuery"
-        },
-        {
-            icon : php,
-            name : "PHP"
-        },
-        {
-            icon : nodejs,
-            name : "Node.js"
-        }
+        // {
+        //     icon : jQuery,
+        //     name : "jQuery"
+        // },
+        // {
+        //     icon : php,
+        //     name : "PHP"
+        // },
+        // {
+        //     icon : nodejs,
+        //     name : "Node.js"
+        // }
     ]
 
     return ( 

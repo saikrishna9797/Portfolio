@@ -1,0 +1,42 @@
+.contactus{
+    /* flex: 0.5;
+    width: 50%; */
+    margin-top: 3%;
+   padding: 5%;
+   display: flex;
+   justify-content: space-between;
+
+}
+
+.giff{
+    /* width: 50%; */
+    flex: 0.5;
+    margin: 10px;
+}
+@media (max-width:1000px)
+{
+    .giff{
+        flex: 1;
+    }
+}
+.contactus>form{
+    
+    /* width: 50%; */
+    flex: 0.4;
+    margin: 10px;
+   
+    
+}
+
+.giff>img{
+
+    width: 100vh;
+}
+
+.contactus>form>button{
+    margin-top: 3%;
+}
+
+.form-content{
+    margin: 2%;
+}

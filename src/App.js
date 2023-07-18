@@ -3,6 +3,7 @@ import { Link, Route, Routes} from 'react-router-dom';
 import {useState, useEffect} from 'react';
 
 import Home from './Components/Home';
+import ContactUs from './Components/ContactUs';
 import Skills from './Components/Skills';
 import Projects from './Components/Projects';
 import Certificates from './Components/Certificates';
@@ -27,6 +28,8 @@ function App() {
             <Link to='skills'  className='navItems col-2 '>Skills</Link>
             <Link to='projects'  className='navItems col-2'>Projects</Link>
             <Link to='certificates'  className='navItems col-2'>Certificates</Link>
+            <Link to='contactus'  className='navItems col-2'>ContactUs</Link>
+
       </div>
 
       {/* conditional rendering */}
@@ -39,6 +42,7 @@ function App() {
                   <Link to='skills'  className='navItems col-12 p-3' onClick={()=> {status==="true" ? SetStatus("false") : SetStatus("true")}}>Skills</Link>
                   <Link to='projects'  className='navItems col-12 p-3' onClick={()=> {status==="true" ? SetStatus("false") : SetStatus("true")}}>Projects</Link>
                   <Link to='certificates'  className='navItems col-12 p-3' onClick={()=> {status==="true" ? SetStatus("false") : SetStatus("true")}}>Certificates</Link>
+                  <Link to='contactus'  className='navItems col-12 p-3' onClick={()=> {status==="true" ? SetStatus("false") : SetStatus("true")}}>ContactUs</Link>
               </div>
             </div>
           </div>
@@ -49,6 +53,7 @@ function App() {
         <Route path='/skills' element={<Skills/>}/>
         <Route path='/Projects' element={<Projects/>}/>
         <Route path='/certificates' element={<Certificates/>}/>
+        <Route path='/contactus' element={<ContactUs/>}/>
       </Routes>
     </div>
    

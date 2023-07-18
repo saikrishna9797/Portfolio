@@ -25,11 +25,11 @@
 
 @media all and (min-width :996px) {
 
-    .eachMeritCertificate:hover{
+    /* .eachMeritCertificate:hover{
         background-color: white;
         color: black;
         font-size: 150%;
-    }
+    } */
 
     .eachCourseCertifiate:hover{
         background-color: black;

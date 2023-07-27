@@ -9,7 +9,7 @@ import m1 from './images/certificates/m4.png'
 
 import m2 from './images/certificates/app.png'
 
-
+import m3 from './images/certificates/sql.png'
 
 function Certificates() {
 
@@ -28,11 +28,19 @@ function Certificates() {
             icon : m2,
             name : "Flutter Development Bootcamp With Dart"
         },
+
+        {
+            icon : m3,
+            name : "    SQL(BASIC)  "
+        },
+
+
         {
             icon : m1,
             name : "Data Structures and Algorithms"
         },
 
+      
        
     ]
 

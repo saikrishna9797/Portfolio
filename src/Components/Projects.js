@@ -28,7 +28,7 @@ function Projects() {
             img   : p33,
             title : ' Number Plater Detection',
             tech  : ' Image Processing and Matlab.',
-            desc  : ' Solar System Vizualizer is a web application by which user can vizualize the solar system and users can also change the speeds of the planets.',
+            desc  : ' MATLAB-based project for automatic number plate detection using image preprocessing and image processing techniques combined with machine learning for localization and recognition.',
            
         },
         // {

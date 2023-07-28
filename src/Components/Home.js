@@ -29,7 +29,7 @@ function Home() {
                                 </div>
                                 <div>
                                     <ul className='contactDetails row mx-2 ' onMouseLeave={()=>{SetDetails("")}}>
-                                        <li className='col-3' onMouseOver={()=>{SetDetails(['Phone No : ' , '9014905762'])}}><img src={c1} width='37%' /></li>
+                                        <li className='hov col-3' onMouseOver={()=>{SetDetails(['Phone No : ' , '9014905762'])}}><img src={c1} width='37%' /></li>
                                         <a href='https://mail.google.com/mail/u/0/#inbox?compose=CllgCJlLXFGddsGtvbLXtcQzVFRfHTMdsNHPDdzpbsGLTFfqXhVGMhTSJJlClLBZvnDbqWmbWLV' className='col-3'><li onMouseOver={()=>{SetDetails(['EmailId : ' , 'skrishnapenumalla7@gmail.com'])}}><img src={c2} width='35%' style={{borderRadius:'50%'}} /></li></a>
                                         <a href="https://www.linkedin.com/in/penumalla-saikrishna-658b73245/" className='col-3'><li  onMouseOver={()=>{SetDetails(['LinkedIn : ' ,  'Penumalla Saikrishna'])}}><img src={c3} width='44%'/></li></a>
                                         <a href='https://github.com/saikrishna9797' className='col-3'><li onMouseOver={()=>{SetDetails(['GitHub : ' , 'saikrishna9797'])}}><img src={c4} width='38%'/></li></a>
@@ -57,10 +57,10 @@ function Home() {
                                 </div>
                                 <div>
                                     <ul className='contactDetails row mx-2 ' onMouseLeave={()=>{SetDetails("")}}>
-                                        <li className='col-3' onMouseOver={()=>{SetDetails(['Phone No : ' , '+91 9014905762'])}}><img src={c1} width='37%' /></li>
-                                        <a href='https://mail.google.com/mail/u/0/#inbox?compose=CllgCJlLXFGddsGtvbLXtcQzVFRfHTMdsNHPDdzpbsGLTFfqXhVGMhTSJJlClLBZvnDbqWmbWLV' className='col-3'><li onMouseOver={()=>{SetDetails(['EmailId : ' , 'skrishnapenumalla7@gmail.com'])}}><img src={c2} width='35%' style={{borderRadius:'50%'}}/></li></a>
-                                        <a href="https://www.linkedin.com/in/penumalla-saikrishna-658b73245/" className='col-3'><li  onMouseOver={()=>{SetDetails(['LinkedIn : ' ,  'penumallasaikrishna'])}}><img src={c3} width='44%'/></li></a>
-                                        <a href='https://github.com/saikrishna9797' className='col-3'><li onMouseOver={()=>{SetDetails(['GitHub : ' , 'saikrishna9797'])}}><img src={c4} width='38%'/></li></a>
+                                        <li className='hov col-3' onMouseOver={()=>{SetDetails(['Phone No : ' , '+91 9014905762'])}}><img src={c1} width='37%' /></li>
+                                        <a href='https://mail.google.com/mail/u/0/#inbox?compose=CllgCJlLXFGddsGtvbLXtcQzVFRfHTMdsNHPDdzpbsGLTFfqXhVGMhTSJJlClLBZvnDbqWmbWLV' target="_blank" rel="noopener noreferrer" className='col-3'><li onMouseOver={()=>{SetDetails(['EmailId : ' , 'skrishnapenumalla7@gmail.com'])}}><img src={c2} width='35%' style={{borderRadius:'50%'}}/></li></a>
+                                        <a href="https://www.linkedin.com/in/penumalla-saikrishna-658b73245/" target="_blank" rel="noopener noreferrer" className='col-3'><li  onMouseOver={()=>{SetDetails(['LinkedIn : ' ,  'penumallasaikrishna'])}}><img src={c3} width='44%'/></li></a>
+                                        <a href='https://github.com/saikrishna9797' target="_blank" rel="noopener noreferrer" className='col-3'><li onMouseOver={()=>{SetDetails(['GitHub : ' , 'saikrishna9797'])}}><img src={c4} width='38%'/></li></a>
                                     </ul>
                                 </div>
                                 <p className='details'><b>{details[0]}</b>{details[1]}</p>
